@@ -71,9 +71,9 @@ def main():
 # returns client for log server
 def connect_log_server():
     # host information for Linux Log server PC
-    host = "10.52.203.213"
-    user = "scpadm"
-    password = "scpadm"
+    host = "#"
+    user = "##"
+    password = "#"
     # connect to host PC using paramiko
     client = paramiko.SSHClient()
     client.load_system_host_keys()
@@ -83,9 +83,9 @@ def connect_log_server():
 # returns client for Windows PC
 def connect_windows():
     # host Windows PC information
-    host = "10.52.203.16"
-    user = r"NOKLAB\usnap-scpadm"
-    password = "Scp@dm1!"
+    host = "#"
+    user = r"#"
+    password = "#"
     # connect to host PC using paramiko
     client2 = paramiko.SSHClient()
     client2.load_system_host_keys()
